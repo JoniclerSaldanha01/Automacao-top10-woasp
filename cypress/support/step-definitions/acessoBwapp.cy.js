@@ -4,3 +4,7 @@ import acessarAplicacao from '../page/acessarApicacao'
 Given('que acesso a aplicacao WAPP', () => {
     acessarAplicacao.acessar()
 })
+
+And('efetuo login', () => {
+    acessarAplicacao.login()
+})
